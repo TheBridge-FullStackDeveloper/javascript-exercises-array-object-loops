@@ -9,7 +9,6 @@ let numbersLength = numbers.length;
 
 // multiplica por 2 cada elemento del array `numbers` utilizando un bucle `for`
 function multiplyByTwo(numbers) {
-  let numbers = [];
   for (let i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i] * 2;
   }
