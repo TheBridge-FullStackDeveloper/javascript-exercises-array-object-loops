@@ -48,24 +48,24 @@ describe("Pruebas para el código", function() {
 
   // Pruebas para el objeto 'obj'
   it("Debería tener una propiedad 'name' con el valor correcto", function() {
-    expect(obj.name).toBe("Jorge");
+    expect(person.name).toBe("Jorge");
   });
 
   it("Debería tener una propiedad 'lastName' con el valor correcto", function() {
-    expect(obj.lastName).toBe("Gonzalez");
+    expect(person.lastName).toBe("Gonzalez");
   });
 
   it("Debería tener una propiedad 'birthYear' con el valor correcto", function() {
-    expect(obj.birthYear).toBe(1995);
+    expect(person.birthYear).toBe(1995);
   });
 
   it("La función 'getFullName' debería devolver el nombre completo", function() {
-    const fullName = obj.getFullName();
+    const fullName = person.getFullName();
     expect(fullName).toBe("Jorge Gonzalez");
   });
 
   it("La función 'getBirthYear' debería devolver la edad", function() {
-    const age = obj.getBirthYear();
+    const age = person.getBirthYear();
     expect(age).toBe(28); // Ajusta este valor según tu año de nacimiento y el año actual
   });
 });
