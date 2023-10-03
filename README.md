@@ -2,7 +2,7 @@
 
 Este repositorio contiene ejercicios en JavaScript para practicar Arrays, Objetos y Bucles.
 
-Para los bucles no se pueden utilizar los metodos de arrays es permitido solo el uso de los bucles for o while.
+Para los bucles no se pueden utilizar los métodos de arrays es permitido solo el uso de los bucles for o while.
 
 ## Descripción de los ejercicios
 
@@ -10,7 +10,7 @@ Para los bucles no se pueden utilizar los metodos de arrays es permitido solo el
 
 1. Crea un array vacío llamado `stack`.
 
-2. Crea un array `numbers` con los números del 1 al 5 en orden ascendente.
+2. Crea un array `numbers` con los números del 1 al 5 in orden ascendente
 
 3. La función `multiplyByTwo` tiene que multiplicar por 2 cada elemento del array `numbers` utilizando un bucle `for`.
 
@@ -22,7 +22,7 @@ Para los bucles no se pueden utilizar los metodos de arrays es permitido solo el
 
 7. La función `average` tiene que devolver el promedio de todos los números del array `numbers`.
 
-8. La función `biggestPrime` tiene que devolver el número primo más grande del array `numbers`.
+8. La función `biggestPrime` tiene que devolver el número primo más grande de los primeros 100 números, el parámetro numbers es el número `100`
 
 ### Ejercicios con Objetos
 
@@ -36,4 +36,4 @@ Para los bucles no se pueden utilizar los metodos de arrays es permitido solo el
 
 5. Agrega una función `getFullName` al objeto que devuelva el nombre completo.
 
-6. Agrega una función `getAge` al objeto que devuelva la edad (asumiendo que es el año 2023).
+6. Agrega una función `getBirthYear` al objeto que devuelva la edad (asumiendo que es el año 2023).
