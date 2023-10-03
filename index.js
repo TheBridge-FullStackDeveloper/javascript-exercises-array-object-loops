@@ -1,8 +1,10 @@
+// PARA ESTE EJERCICIO SE PUEDE UTILIZAR SOLO PUBLIQUE FOR O WHILE
+
 // Crea un array vacío llamado `stack`
 
 // Crea un array `numbers` con los números del 1 al 5 in orden ascendente
 
-// multiplica por 2 cada elemento del array `numbers` utilizando un bucle `for`
+// La función multiplyByTwo tiene que devolver un array con los números multiplicados por 2 de cada elemento del array `numbers`
 function multiplyByTwo(numbers) {
   // Aquí va tu código
 }
@@ -27,7 +29,8 @@ function average(numbers) {
   // Aquí va tu código
 }
 
-// La función `biggestPrime` tiene que devolver el número primo más grande del array `numbers`
+// La función `biggestPrime` tiene que devolver el número primo más grande de los primeros 100 números
+// El parámetro numbers es el número 100
 function biggestPrime(numbers) {
   // Aquí va tu código
 }
@@ -42,4 +45,4 @@ function biggestPrime(numbers) {
 
 // Agrega una función `getFullName` al objeto que devuelva el nombre completo
 
-// Agrega una función `getAge` al objeto que devuelva la edad (asumiendo que es el año 2023)
+// Agrega una función `getBirthYear` al objeto que devuelva la edad (asumiendo que es el año 2023)
